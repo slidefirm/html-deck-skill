@@ -1,0 +1,419 @@
+{
+  "note": "自動產生，請勿手改。由 scripts/sync-workshop.mjs 從簡報素材工坊產生。",
+  "backgrounds": [
+    {
+      "id": "aurora",
+      "name": "流光"
+    },
+    {
+      "id": "waves",
+      "name": "波浪"
+    },
+    {
+      "id": "contour",
+      "name": "等高線"
+    },
+    {
+      "id": "network",
+      "name": "星網"
+    },
+    {
+      "id": "steps",
+      "name": "階梯"
+    }
+  ],
+  "palettes": [
+    {
+      "id": "bronze",
+      "name": "事務所銅",
+      "bg": "#F7F0E4",
+      "c": [
+        "#A17339",
+        "#B39166",
+        "#D9C4A5"
+      ]
+    },
+    {
+      "id": "ink",
+      "name": "墨底銅金",
+      "bg": "#191919",
+      "c": [
+        "#6E4A1F",
+        "#A17339",
+        "#C9A46E"
+      ]
+    },
+    {
+      "id": "blue",
+      "name": "信任藍",
+      "bg": "#10283A",
+      "c": [
+        "#306E9E",
+        "#5E9CB5",
+        "#8FC2CF"
+      ]
+    },
+    {
+      "id": "olive",
+      "name": "成長綠",
+      "bg": "#14240F",
+      "c": [
+        "#3A762B",
+        "#65955A",
+        "#A9C29F"
+      ]
+    },
+    {
+      "id": "mist",
+      "name": "晨霧",
+      "bg": "#F5F2EC",
+      "c": [
+        "#B39C81",
+        "#8FC2CF",
+        "#DDD8D2"
+      ]
+    },
+    {
+      "id": "dusk",
+      "name": "暮色",
+      "bg": "#1E1A2A",
+      "c": [
+        "#3E5C8A",
+        "#8A4F7D",
+        "#C7764F"
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "id": "bars",
+      "name": "長條圖",
+      "cat": "數據",
+      "tags": "圖表 成長 業績 統計"
+    },
+    {
+      "id": "trend",
+      "name": "趨勢",
+      "cat": "數據",
+      "tags": "成長 上升 折線 業績"
+    },
+    {
+      "id": "pie",
+      "name": "圓餅圖",
+      "cat": "數據",
+      "tags": "占比 比例 份額"
+    },
+    {
+      "id": "target",
+      "name": "目標",
+      "cat": "數據",
+      "tags": "KPI 靶心 聚焦 精準"
+    },
+    {
+      "id": "funnel",
+      "name": "漏斗",
+      "cat": "數據",
+      "tags": "轉換 篩選 行銷"
+    },
+    {
+      "id": "database",
+      "name": "資料庫",
+      "cat": "數據",
+      "tags": "資料 儲存 系統"
+    },
+    {
+      "id": "layers",
+      "name": "層級",
+      "cat": "數據",
+      "tags": "堆疊 架構 分層"
+    },
+    {
+      "id": "stairs",
+      "name": "階梯",
+      "cat": "數據",
+      "tags": "成長 進階 步驟 升級"
+    },
+    {
+      "id": "present",
+      "name": "簡報",
+      "cat": "溝通",
+      "tags": "投影片 報告 提案 上台"
+    },
+    {
+      "id": "chat",
+      "name": "對話",
+      "cat": "溝通",
+      "tags": "留言 回饋 討論 問答"
+    },
+    {
+      "id": "mail",
+      "name": "郵件",
+      "cat": "溝通",
+      "tags": "信件 聯絡 通知"
+    },
+    {
+      "id": "mic",
+      "name": "麥克風",
+      "cat": "溝通",
+      "tags": "演講 上台 發表 錄音"
+    },
+    {
+      "id": "user",
+      "name": "個人",
+      "cat": "溝通",
+      "tags": "使用者 學員 客戶"
+    },
+    {
+      "id": "team",
+      "name": "團隊",
+      "cat": "溝通",
+      "tags": "夥伴 合作 組織"
+    },
+    {
+      "id": "share",
+      "name": "分享",
+      "cat": "溝通",
+      "tags": "連結 擴散 轉發"
+    },
+    {
+      "id": "bell",
+      "name": "通知",
+      "cat": "溝通",
+      "tags": "提醒 鈴 公告"
+    },
+    {
+      "id": "eye",
+      "name": "觀點",
+      "cat": "溝通",
+      "tags": "檢視 洞察 注意 觀察"
+    },
+    {
+      "id": "building",
+      "name": "企業",
+      "cat": "商務",
+      "tags": "公司 內訓 機構 辦公"
+    },
+    {
+      "id": "bag",
+      "name": "購物",
+      "cat": "商務",
+      "tags": "商品 銷售 訂單"
+    },
+    {
+      "id": "coin",
+      "name": "費用",
+      "cat": "商務",
+      "tags": "金錢 預算 營收 成本"
+    },
+    {
+      "id": "trophy",
+      "name": "獎盃",
+      "cat": "商務",
+      "tags": "成就 冠軍 得獎"
+    },
+    {
+      "id": "award",
+      "name": "獎章",
+      "cat": "商務",
+      "tags": "認證 榮譽 品質"
+    },
+    {
+      "id": "flag",
+      "name": "里程碑",
+      "cat": "商務",
+      "tags": "旗幟 目標 階段"
+    },
+    {
+      "id": "shield",
+      "name": "保障",
+      "cat": "商務",
+      "tags": "安全 信任 風險"
+    },
+    {
+      "id": "calendar",
+      "name": "行事曆",
+      "cat": "商務",
+      "tags": "日期 排程 時程"
+    },
+    {
+      "id": "clock",
+      "name": "時間",
+      "cat": "商務",
+      "tags": "時鐘 效率 期限"
+    },
+    {
+      "id": "pin",
+      "name": "地點",
+      "cat": "商務",
+      "tags": "位置 地圖 據點"
+    },
+    {
+      "id": "globe",
+      "name": "全球",
+      "cat": "商務",
+      "tags": "國際 網路 市場"
+    },
+    {
+      "id": "search",
+      "name": "搜尋",
+      "cat": "工具",
+      "tags": "研究 放大鏡 調查"
+    },
+    {
+      "id": "file",
+      "name": "文件",
+      "cat": "工具",
+      "tags": "檔案 報告 合約"
+    },
+    {
+      "id": "folder",
+      "name": "資料夾",
+      "cat": "工具",
+      "tags": "整理 歸檔 專案"
+    },
+    {
+      "id": "pen",
+      "name": "編輯",
+      "cat": "工具",
+      "tags": "書寫 設計 修改"
+    },
+    {
+      "id": "sliders",
+      "name": "設定",
+      "cat": "工具",
+      "tags": "調整 參數 控制"
+    },
+    {
+      "id": "lock",
+      "name": "鎖定",
+      "cat": "工具",
+      "tags": "權限 隱私 安全"
+    },
+    {
+      "id": "download",
+      "name": "下載",
+      "cat": "工具",
+      "tags": "匯出 儲存"
+    },
+    {
+      "id": "refresh",
+      "name": "循環",
+      "cat": "工具",
+      "tags": "更新 迭代 重複"
+    },
+    {
+      "id": "monitor",
+      "name": "螢幕",
+      "cat": "工具",
+      "tags": "電腦 線上 遠距"
+    },
+    {
+      "id": "phone",
+      "name": "手機",
+      "cat": "工具",
+      "tags": "行動 App"
+    },
+    {
+      "id": "image",
+      "name": "圖片",
+      "cat": "工具",
+      "tags": "照片 視覺 素材"
+    },
+    {
+      "id": "grid",
+      "name": "版面",
+      "cat": "工具",
+      "tags": "排版 模組 格線"
+    },
+    {
+      "id": "cloud",
+      "name": "雲端",
+      "cat": "工具",
+      "tags": "線上 同步 儲存"
+    },
+    {
+      "id": "play",
+      "name": "播放",
+      "cat": "工具",
+      "tags": "影片 開始 示範"
+    },
+    {
+      "id": "bulb",
+      "name": "靈感",
+      "cat": "概念",
+      "tags": "想法 創意 燈泡 點子"
+    },
+    {
+      "id": "zap",
+      "name": "效率",
+      "cat": "概念",
+      "tags": "閃電 快速 能量"
+    },
+    {
+      "id": "star",
+      "name": "重點",
+      "cat": "概念",
+      "tags": "星 精選 推薦"
+    },
+    {
+      "id": "heart",
+      "name": "喜愛",
+      "cat": "概念",
+      "tags": "關懷 愛心 滿意"
+    },
+    {
+      "id": "check",
+      "name": "完成",
+      "cat": "概念",
+      "tags": "確認 正確 通過"
+    },
+    {
+      "id": "alert",
+      "name": "注意",
+      "cat": "概念",
+      "tags": "警示 風險 提醒"
+    },
+    {
+      "id": "flow",
+      "name": "流程",
+      "cat": "概念",
+      "tags": "步驟 架構 分工"
+    },
+    {
+      "id": "compass",
+      "name": "方向",
+      "cat": "概念",
+      "tags": "策略 指南 定位"
+    },
+    {
+      "id": "book",
+      "name": "知識",
+      "cat": "概念",
+      "tags": "書 學習 課程 教材"
+    },
+    {
+      "id": "home",
+      "name": "首頁",
+      "cat": "概念",
+      "tags": "家 起點 基礎"
+    },
+    {
+      "id": "gift",
+      "name": "禮物",
+      "cat": "概念",
+      "tags": "回饋 優惠 贈品"
+    },
+    {
+      "id": "coffee",
+      "name": "休息",
+      "cat": "概念",
+      "tags": "咖啡 中場 Q&A"
+    },
+    {
+      "id": "cursor",
+      "name": "點擊",
+      "cat": "概念",
+      "tags": "互動 游標 操作"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "title": "html-deck 自動排版示範",
+  "theme": { "palette": "bronze", "font": "sans", "radius": 20, "icon": "duo" },
+  "background": { "style": "contour", "seed": 20261112, "density": 0.5, "strength": 0.6, "grain": true },
+  "footer": "html-deck 示範",
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "HTML DECK 示範",
+      "title": "同一份內容，\n多種版面",
+      "subtitle": "文字變多、項目變少，版面自己調整，不用重新排版",
+      "meta": ["自動排版示範", "2026"]
+    },
+    {
+      "type": "statement", "kind": "section", "number": "01",
+      "text": "同一個主題、三個重點",
+      "sub": "接下來六頁的文字完全相同，只換「內容型態」與「排列」"
+    },
+    {
+      "type": "points", "item": "icon", "arrange": "columns",
+      "title": "一頁投影片的三個任務",
+      "items": [
+        { "icon": "target", "title": "先講結論", "body": "讓觀眾三秒內知道這一頁要說什麼" },
+        { "icon": "bars", "title": "再給證據", "body": "用一個數字或一張圖支持你的結論" },
+        { "icon": "flag", "title": "最後行動", "body": "告訴觀眾接下來該做什麼決定" }
+      ]
+    },
+    {
+      "type": "points", "item": "number", "arrange": "columns",
+      "title": "一頁投影片的三個任務",
+      "items": [
+        { "title": "先講結論", "body": "讓觀眾三秒內知道這一頁要說什麼" },
+        { "title": "再給證據", "body": "用一個數字或一張圖支持你的結論" },
+        { "title": "最後行動", "body": "告訴觀眾接下來該做什麼決定" }
+      ]
+    },
+    {
+      "type": "points", "item": "bullet", "arrange": "split",
+      "title": "一頁投影片的三個任務",
+      "lead": "每一頁都要回答：所以呢？",
+      "items": [
+        { "title": "先講結論", "body": "讓觀眾三秒內知道這一頁要說什麼" },
+        { "title": "再給證據", "body": "用一個數字或一張圖支持你的結論" },
+        { "title": "最後行動", "body": "告訴觀眾接下來該做什麼決定" }
+      ]
+    },
+    {
+      "type": "points", "item": "image", "arrange": "columns",
+      "title": "一頁投影片的三個任務",
+      "items": [
+        { "title": "先講結論", "body": "讓觀眾三秒內知道這一頁要說什麼" },
+        { "title": "再給證據", "body": "用一個數字或一張圖支持你的結論" },
+        { "title": "最後行動", "body": "告訴觀眾接下來該做什麼決定" }
+      ]
+    },
+    {
+      "type": "points", "item": "block", "arrange": "columns",
+      "title": "一頁投影片的三個任務",
+      "items": [
+        { "title": "先講結論", "body": "讓觀眾三秒內知道這一頁要說什麼" },
+        { "title": "再給證據", "body": "用一個數字或一張圖支持你的結論" },
+        { "title": "最後行動", "body": "告訴觀眾接下來該做什麼決定" }
+      ]
+    },
+    {
+      "type": "points", "item": "number", "arrange": "rows", "highlight": 1,
+      "title": "一頁投影片的三個任務",
+      "items": [
+        { "title": "先講結論", "body": "讓觀眾三秒內知道這一頁要說什麼" },
+        { "title": "再給證據", "body": "用一個數字或一張圖支持你的結論" },
+        { "title": "最後行動", "body": "告訴觀眾接下來該做什麼決定" }
+      ]
+    },
+    {
+      "type": "statement", "kind": "section", "number": "02",
+      "text": "項目數量改變",
+      "sub": "兩項到六項，欄數與換行自己決定"
+    },
+    {
+      "type": "points", "item": "block",
+      "title": "兩項：只有兩個選擇的時候",
+      "items": [
+        { "title": "維持現狀", "body": "不需要新投入，但問題會繼續累積" },
+        { "title": "現在調整", "body": "前期要花時間，之後每一次都省力" }
+      ]
+    },
+    {
+      "type": "points", "item": "icon",
+      "title": "四項：做一份簡報的四個階段",
+      "items": [
+        { "icon": "search", "title": "釐清目的", "body": "這份簡報要讓誰做什麼決定" },
+        { "icon": "layers", "title": "整理重點", "body": "一頁只講一件事" },
+        { "icon": "grid", "title": "設計版面", "body": "對齊、留白、對比" },
+        { "icon": "mic", "title": "上台演練", "body": "計時並修掉贅字" }
+      ]
+    },
+    {
+      "type": "points", "item": "number",
+      "title": "五項：上台前的檢查清單",
+      "items": [
+        { "title": "確認設備", "body": "轉接頭、簡報筆、備用檔案" },
+        { "title": "走一次流程", "body": "從開場到結尾完整講一遍" },
+        { "title": "計時", "body": "比規定時間少一成" },
+        { "title": "準備提問", "body": "先想好最可能被問的三題" },
+        { "title": "留下聯絡方式", "body": "最後一頁放得清楚" }
+      ]
+    },
+    {
+      "type": "points", "item": "icon",
+      "title": "六項：常見的六種頁面",
+      "items": [
+        { "icon": "present", "title": "封面", "body": "主題與講者" },
+        { "icon": "flow", "title": "流程", "body": "步驟與順序" },
+        { "icon": "trend", "title": "數據", "body": "趨勢與比較" },
+        { "icon": "chat", "title": "引言", "body": "一句話的力量" },
+        { "icon": "team", "title": "團隊", "body": "誰在做這件事" },
+        { "icon": "check", "title": "結尾", "body": "下一步行動" }
+      ]
+    },
+    {
+      "type": "statement", "kind": "section", "number": "03",
+      "text": "文字量改變",
+      "sub": "字少就放大，字多就換排列；真的放不下，檢查會請你拆頁"
+    },
+    {
+      "type": "points", "item": "icon",
+      "title": "字很少：只有三個關鍵詞",
+      "items": [
+        { "icon": "bulb", "title": "清楚" },
+        { "icon": "zap", "title": "簡單" },
+        { "icon": "heart", "title": "有感" }
+      ]
+    },
+    {
+      "type": "points", "item": "icon",
+      "title": "字很多：每個重點都需要一段說明",
+      "items": [
+        { "icon": "target", "title": "先講結論", "body": "把這一頁最重要的那句話放在標題。觀眾的注意力在前三秒最高，結論放最後等於把最好的位置讓給了鋪陳。" },
+        { "icon": "bars", "title": "再給證據", "body": "每個結論只配一個最有力的證據。同時放五張圖表，觀眾不知道該看哪一張，也記不住任何一張。" },
+        { "icon": "flag", "title": "最後行動", "body": "明確寫出希望對方做的下一步，以及什麼時候之前要完成。沒有行動的簡報只是資訊分享。" }
+      ]
+    },
+    {
+      "type": "points", "item": "number",
+      "title": "字很多而且有四項：加上引言與結論列",
+      "lead": "引言放在標題下方，用來補充這一頁的前提或範圍。",
+      "items": [
+        { "title": "釐清目的", "body": "先寫下這份簡報結束後，希望觀眾做出的那一個決定。" },
+        { "title": "整理重點", "body": "把所有想講的內容列出來，刪到只剩三個非講不可的。" },
+        { "title": "設計版面", "body": "同類的東西對齊，不同層級的東西拉開大小差距。" },
+        { "title": "上台演練", "body": "至少完整講三次，並且錄下來聽自己哪裡在繞圈子。" }
+      ],
+      "takeaway": "結論列：內容多的時候，用一句話幫觀眾收尾。"
+    },
+    {
+      "type": "points", "item": "metric", "arrange": "columns", "highlight": 1,
+      "title": "大數字：讓數字當主角",
+      "items": [
+        { "value": "92%", "title": "準時完成", "body": "範例數據" },
+        { "value": "68%", "title": "預算執行", "body": "範例數據" },
+        { "value": "45%", "title": "客戶回購", "body": "範例數據" }
+      ]
+    },
+    {
+      "type": "points", "item": "metric", "arrange": "rows",
+      "title": "大數字也可以排成直列",
+      "items": [
+        { "value": "1,280", "title": "報名人數", "body": "範例數據，含現場與線上" },
+        { "value": "36 場", "title": "年度場次", "body": "範例數據" },
+        { "value": "4.8", "title": "平均滿意度", "body": "範例數據，滿分 5 分" }
+      ]
+    },
+    {
+      "type": "compare",
+      "title": "左右對比：改造前與改造後",
+      "left": { "head": "改造前", "rows": ["一頁塞滿八個重點", "標題只寫主題", "整段文字照著念"] },
+      "right": { "head": "改造後", "rows": ["一頁只講一件事", "標題直接寫結論", "關鍵字加上圖解"] },
+      "takeaway": "差別不在美感，在於觀眾要花多少力氣才看得懂。"
+    },
+    {
+      "type": "statement", "kind": "quote",
+      "text": "簡報不是把你知道的都放上去，而是只留下對方需要的。",
+      "by": "示範引言"
+    },
+    {
+      "type": "statement", "kind": "closing",
+      "text": "謝謝聆聽",
+      "sub": "這份示範的每一頁都由同一套規則自動排版",
+      "meta": ["html-deck", "第一階段：自動排版"]
+    }
+  ]
+}
