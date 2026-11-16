@@ -5,6 +5,15 @@
 
 完整說明在 [SKILL.md](SKILL.md)，內容表格式在 [reference/deck-format.md](reference/deck-format.md)。
 
+## 案例：台灣能源轉型現況
+
+[線上觀看](https://slidefirm.github.io/html-deck-examples/taiwan-energy-2025/)｜[內容表](https://github.com/slidefirm/html-deck-examples/blob/main/taiwan-energy-2025/taiwan-energy.deck.json)｜[更多案例](https://github.com/slidefirm/html-deck-examples)
+
+[![台灣能源轉型現況：自動排版的前 8 頁](https://raw.githubusercontent.com/slidefirm/html-deck-examples/main/taiwan-energy-2025/preview.jpg)](https://slidefirm.github.io/html-deck-examples/taiwan-energy-2025/)
+
+13 頁，從一份約 120 行的內容表自動排版產生，沒有手動調整；數字來自經濟部能源署等公開資料，每頁標出處。
+打開網頁就能拖拉編輯、匯出 PPTX。
+
 ## 需要的東西
 
 - Node 22 以上
